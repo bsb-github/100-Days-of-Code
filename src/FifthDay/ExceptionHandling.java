@@ -15,7 +15,7 @@ public class ExceptionHandling {
         }catch (Exception e){
             System.out.println("Cannot Divide by 0");
         }
-        System.out.println("after CAtch");
+        System.out.println("After Catch");
         System.out.println(3+3);
 
     }

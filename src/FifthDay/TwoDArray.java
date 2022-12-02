@@ -1,5 +1,7 @@
 package FifthDay;
 
+import java.util.Arrays;
+
 public class TwoDArray {
     public static void main(String[] args) {
         //int[][] arr =  new int[3][4]; -> best for taking input from user
@@ -10,11 +12,12 @@ public class TwoDArray {
                 {10, 20 ,40, 50},
                 {34, 56, 77, 76},
                 {32, 43, 34, 21}
-        }; // best for giving values by yourself
 
+        }; // best for giving values by yourself
         for (int i = 0; i < arr.length ; i++) {
             for (int j = 0; j < arr[0].length ; j++) {
-                System.out.print(" "+arr[i][j]);
+                System.out.println(" "+arr[i][j]);
+                //System.out.println(ar[j]);
             }
             System.out.println();
         }

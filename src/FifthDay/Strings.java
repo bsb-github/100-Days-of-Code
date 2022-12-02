@@ -2,11 +2,7 @@ package FifthDay;
 
 public class Strings {
     public static void main(String[] args) {
-        java.lang.String sentence;
-        String str1;
-        String str2;
-        String str3;
-        int index;
+        String sentence;
         sentence = "Now is the time for the birthday party";
         System.out.println("Sentence => "+sentence);
         System.out.println("Length of Sentences: "+sentence.length());
