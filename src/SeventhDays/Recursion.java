@@ -3,6 +3,7 @@ package SeventhDays;
 import java.util.Random;
 
 public class Recursion {
+
     public static void main(String[] args) {
         // function calls itself in its body
         int n = 5;
