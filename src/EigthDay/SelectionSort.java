@@ -17,11 +17,11 @@ public class SelectionSort {
         for (int i = 0; i < length; i++) {
             arr[i] = rand.nextInt(100);
         }
-        System.out.println(Arrays.toString(sort(arr)));
+       // System.out.println(Arrays.toString(sort(arr)));
 
 
     }
-    public static int[] sort(int[] arr){
+    public  int[] sort(int[] arr){
         int index=0;
         int smallest;
         int i=0;
