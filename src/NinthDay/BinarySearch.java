@@ -20,10 +20,11 @@ public class BinarySearch {
     }
     public static int binarySearch(int[] arr, int search,int l,int mid){
         if(l <= mid){
+            l = (l+mid)/2;
             if (arr[mid] == search) {
-                return mid;
+                return mid; //
             } else if ( search>arr[mid]) {
-                l = mid + 1;
+
                 mid = arr.length - 1;
                 return binarySearch(arr, search, l, mid);
             } else {

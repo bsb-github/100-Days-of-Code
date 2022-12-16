@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class SortArray {
     public static void main(String[] args) {
         SelectionSort selectionSort = new SelectionSort();
-        int[] arr = {1,2,3,1,0};
+        int[] arr = {12,1,0,34,-1,3};
         System.out.println(Arrays.toString(sort(arr)));
     }
     public static int[] sort(int[] arr){
