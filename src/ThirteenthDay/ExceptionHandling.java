@@ -14,8 +14,14 @@ public class ExceptionHandling {
 //        Object o = new Object();
 //        String d = (String)o;
         // (e)
-        Object obj = null;
-        System.out.println(obj.toString());
+        try {
+            Object obj = null;
+        System.out.println(1/0);
+        } catch (Exception e) {
+            // TODO: handle exception
+            System.out.println(e.getMessage());
+        }
+        
 //        // (f)
        // System.out.println(1.0 / 0);
     }
